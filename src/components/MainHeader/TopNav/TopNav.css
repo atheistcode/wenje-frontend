@@ -1,0 +1,23 @@
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.top-nav > :last-child {
+  margin-left: var(--spacing-20);
+}
+
+@media (max-width: 59.375rem) {
+  .top-nav > :nth-child(3) {
+    display: none;
+  }
+  .top-nav > :nth-child(5) {
+    display: none;
+  }
+
+  .top-nav {
+    justify-content: space-between;
+  }
+}

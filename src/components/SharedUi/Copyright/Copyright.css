@@ -1,0 +1,7 @@
+.copyright {
+  color: var(--text-color-secondary);
+}
+
+.copyright__link:hover {
+  text-decoration: underline;
+}

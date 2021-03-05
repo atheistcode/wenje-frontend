@@ -1,0 +1,35 @@
+.find-people {
+  position: sticky;
+  top: 5rem;
+  margin-left: auto;
+  padding-left: var(--spacing-20);
+}
+
+.find-people__title {
+  text-align: center;
+}
+
+.find-people__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 52rem) {
+  .find-people {
+    display: none;
+  }
+}
+
+.find-people--page {
+  width: 100%;
+}
+
+.find-people__list--page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

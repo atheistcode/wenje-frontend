@@ -1,0 +1,5 @@
+.delete-button {
+  color: var(--text-color-secondary);
+  font-size: var(--spacing-10);
+  cursor: pointer;
+}

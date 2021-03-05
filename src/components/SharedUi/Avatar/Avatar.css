@@ -1,0 +1,25 @@
+.avatar--sm {
+  width: 3rem;
+  height: 3rem;
+  margin-right: var(--spacing-10);
+}
+
+.avatar--md {
+  width: 5rem;
+  height: 5rem;
+  margin-right: var(--spacing-10);
+}
+
+.avatar--lg {
+  width: 8rem;
+  height: 8rem;
+  margin-right: var(--spacing-10);
+}
+
+.avatar--box {
+  border-radius: var(--border-radius-secondary);
+}
+
+.avatar--circle {
+  border-radius: 50%;
+}

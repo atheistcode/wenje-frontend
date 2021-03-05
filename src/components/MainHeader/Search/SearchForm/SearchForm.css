@@ -1,0 +1,31 @@
+.search-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-form__input {
+  margin-left: var(--spacing-20);
+  margin-bottom: 0 !important;
+  z-index: 15;
+}
+
+.search-form__icon {
+  padding: var(--spacing-10);
+  background-color: var(--color-primary);
+  color: var(--text-color-white);
+  border: 0.125rem solid transparent;
+  border-radius: var(--border-radius-primary);
+  cursor: pointer;
+  z-index: 15;
+}
+
+.search-form__input:focus + .search-form__icon {
+  border: var(--border-2px-colored);
+}
+
+@media (max-width: 27.5rem) {
+  .search-form__input {
+    width: 9rem !important;
+  }
+}

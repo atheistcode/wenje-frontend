@@ -1,0 +1,19 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: var(--spacing-10);
+  background-image: url("https://res.cloudinary.com/ahmed-rezk/image/upload/v1595468849/wenje/general-images/mojtaba-hoseini-S79jXcXP_u0-unsplash_rsnvz9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #000000;
+}
+
+.welcome__image-credit {
+  margin-top: auto;
+  color: var(--text-color-white);
+}

@@ -1,0 +1,9 @@
+.image-upload__input {
+  display: none;
+}
+
+.image-upload__icon {
+  color: var(--color-primary);
+  font-size: 2rem;
+  cursor: pointer;
+}

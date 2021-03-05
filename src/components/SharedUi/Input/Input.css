@@ -1,0 +1,44 @@
+.label {
+  margin-bottom: var(--spacing-10);
+}
+
+.input {
+  width: 100%;
+  margin-bottom: var(--spacing-20);
+  padding: var(--spacing-10);
+  background-color: var(--bg-color-component-secondary);
+  border: var(--border-2px-secondary);
+  border-radius: var(--border-radius-primary);
+  font-size: var(--font-size-n);
+  font-family: inherit;
+}
+
+.input:focus {
+  background-color: #ffffff;
+  border: var(--border-2px-colored);
+  outline: none;
+  transition: var(--transition-primary);
+}
+
+.textarea {
+  width: 100%;
+  height: 4rem;
+  resize: none;
+  padding: var(--spacing-10) 4.4rem var(--spacing-10) var(--spacing-10);
+  background-color: var(--bg-color-component-secondary);
+  border: var(--border-2px-secondary);
+  border-radius: var(--border-radius-primary);
+  font-size: var(--font-size-n);
+  font-family: inherit;
+}
+
+.textarea:focus {
+  background-color: #ffffff;
+  border: var(--border-2px-colored);
+  outline: none;
+  transition: var(--transition-primary);
+}
+
+.textarea--lg {
+  height: 6rem;
+}

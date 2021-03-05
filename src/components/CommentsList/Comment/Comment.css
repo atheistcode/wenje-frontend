@@ -1,0 +1,33 @@
+.comment {
+  display: flex;
+  margin-bottom: var(--spacing-20);
+}
+
+.comment__body {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 4;
+  width: 100%;
+}
+
+.comment__body__header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-10);
+}
+
+.comment__body__header__user-name {
+  margin-right: var(--spacing-10);
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.comment__body__header__time {
+  margin-right: auto;
+  color: var(--text-color-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.comment__body__content {
+  margin-bottom: var(--spacing-10);
+}

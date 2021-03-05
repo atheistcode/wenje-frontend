@@ -1,0 +1,16 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-primary-light);
+  box-shadow: var(--box-shadow-secondary);
+  z-index: 10;
+}
+
+.main-header__contents-container {
+  max-width: var(--app-max-width);
+  height: 4rem;
+  margin: auto;
+  padding: 0 var(--spacing-20);
+}

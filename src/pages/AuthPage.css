@@ -1,0 +1,23 @@
+.auth-page {
+  display: flex;
+  flex-direction: column;
+}
+.auth-page > * {
+  height: 100vh;
+}
+
+.auth-page > :first-child {
+  display: none;
+}
+
+@media (min-width: 50rem) {
+  .auth-page {
+    flex-direction: row;
+  }
+  .auth-page > * {
+    width: 50vw;
+  }
+  .auth-page > :first-child {
+    display: block;
+  }
+}

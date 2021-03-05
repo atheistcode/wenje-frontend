@@ -1,0 +1,42 @@
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65vw;
+  height: 100%;
+  padding: var(--spacing-20);
+  background-color: var(--color-primary-light);
+  box-shadow: var(--box-shadow-primary);
+  z-index: 30;
+}
+
+.side-nav__container {
+  width: 8rem;
+  margin: 30vh auto auto auto;
+}
+
+/* CSS Transition */
+.slide-right-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.slide-right-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 200ms;
+}
+
+.slide-right-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.slide-right-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 200ms;
+}

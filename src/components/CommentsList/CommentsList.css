@@ -1,0 +1,25 @@
+.comments-list {
+  position: relative;
+  margin-top: calc(var(--spacing-10) * -1);
+  margin-bottom: var(--spacing-15);
+  padding: var(--spacing-20) var(--spacing-20) 0 var(--spacing-20);
+  background-color: var(--bg-color-component);
+  border: var(--border-1px-primary);
+  border-top: none;
+  box-shadow: var(--box-shadow-secondary);
+}
+
+.comments-list > :first-child {
+  margin-bottom: var(--spacing-20);
+}
+
+.comments-list__footer {
+  margin: auto calc(var(--spacing-20) * -1);
+  padding: var(--spacing-10) var(--spacing-20) var(--spacing-20) var(--spacing-20);
+  background-color: var(--bg-color-component-secondary);
+  color: var(--color-primary-dark);
+}
+
+.comments-list__footer > *:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.add-comment {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.add-comment__button {
+  width: 4rem;
+  height: 3rem;
+  margin-left: var(--spacing-10);
+}

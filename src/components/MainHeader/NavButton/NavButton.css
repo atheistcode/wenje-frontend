@@ -1,0 +1,12 @@
+.nav-button {
+  margin-right: var(--spacing-20);
+  font-size: var(--font-size-md);
+  cursor: pointer;
+  z-index: 31;
+}
+
+@media (min-width: 59.375rem) {
+  .hide-nav-button-on-lg-screen {
+    display: none;
+  }
+}

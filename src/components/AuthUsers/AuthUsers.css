@@ -1,0 +1,47 @@
+.auth-users {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: var(--spacing-20);
+  background-color: var(--bg-color-component);
+  border-top: 1px solid #000000;
+}
+
+.auth-users__logo {
+  align-self: flex-start;
+}
+
+.auth-users__headers {
+  text-align: center;
+}
+
+.auth-users__form {
+  width: var(--form-max-width);
+}
+
+.auth-users__form > input[name] {
+  width: var(--form-max-width);
+}
+
+.auth-users__form__forgot-password {
+  display: inline-block;
+  margin-bottom: var(--spacing-20);
+  color: var(--color-primary-dark);
+  cursor: pointer;
+}
+
+.auth-users__form__forgot-password:hover {
+  text-decoration: underline;
+}
+
+.auth-users__form__forgot-password-button {
+  margin-bottom: var(--spacing-20);
+}
+
+.auth-users__form__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

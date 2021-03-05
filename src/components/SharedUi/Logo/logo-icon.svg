@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29.801" viewBox="0 0 29 29.801">
+  <g id="logo_icon.component" transform="translate(-410 -10.199)">
+    <g id="Rectangle_452" data-name="Rectangle 452" transform="translate(410 21)" fill="#06f" stroke="#dadadb" stroke-width="2">
+      <path d="M0,0H21a8,8,0,0,1,8,8V8a0,0,0,0,1,0,0H8A8,8,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M1.4,1h21A5.6,5.6,0,0,1,28,6.6v0a.4.4,0,0,1-.4.4H6.6A5.6,5.6,0,0,1,1,1.4v0A.4.4,0,0,1,1.4,1Z" fill="none"/>
+    </g>
+    <g id="Rectangle_453" data-name="Rectangle 453" transform="translate(413.523 35.6) rotate(-60)" fill="#0045ad" stroke="#dadadb" stroke-width="2">
+      <path d="M0,0H20.532a8.8,8.8,0,0,1,8.8,8.8v0a0,0,0,0,1,0,0H8.8A8.8,8.8,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M1.453,1H21.985a6.346,6.346,0,0,1,6.346,6.346v0a.453.453,0,0,1-.453.453H7.346A6.346,6.346,0,0,1,1,1.453v0A.453.453,0,0,1,1.453,1Z" fill="none"/>
+    </g>
+    <g id="Rectangle_454" data-name="Rectangle 454" transform="translate(431.925 38.581) rotate(-135)" fill="#db2828" stroke="#dadadb" stroke-width="2">
+      <path d="M0,0H20.532a8.8,8.8,0,0,1,8.8,8.8v0a0,0,0,0,1,0,0H8.8A8.8,8.8,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M1.453,1H21.985a6.346,6.346,0,0,1,6.346,6.346v0a.453.453,0,0,1-.453.453H7.346A6.346,6.346,0,0,1,1,1.453v0A.453.453,0,0,1,1.453,1Z" fill="none"/>
+    </g>
+  </g>
+</svg>

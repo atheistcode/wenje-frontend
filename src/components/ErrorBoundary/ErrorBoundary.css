@@ -1,0 +1,13 @@
+.error-boundary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+  padding: var(--spacing-40);
+}
+
+.error-boundary__image {
+  max-width: 40.625rem;
+  max-height: 40.625rem;
+}
